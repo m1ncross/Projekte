@@ -1,9 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	var a, b, c float64
+
+	fmt.Println("Alle reäle Zahlen mit dem Punkt antippenen, z.B. 1.5 oder 0.25")
+	time.Sleep(2 * time.Second)
 
 	fmt.Print("Die erste Variable eintippen:")
 	fmt.Scanln(&a)
